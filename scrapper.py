@@ -31,7 +31,7 @@ gs_profile_url = "https://scholar.google.com/citations?user=7cOu9sAAAAAJ&hl=en"
 # Google Scholar citation base link
 abuse_exception = "1&google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3D3c1af3a1f6ab162e:TM%3D1738604233:C%3Dr:IP%3D128.235.13.38-:S%3DKT-24sKKwdaS_tciwWnVCzo%3B+path%3D/%3B+domain%3Dgoogle.com%3B+expires%3DMon,+03-Feb-2025+22:37:13+GMT"
 abuse_exception = "1"
-gs_citation_url = lambda start_pos, cite : f"https://scholar.google.com/scholar?start={start_pos}&hl=en&num=20&as_sdt=80000005&sciodt=0,23&cites={cite}&scipsc=" + abuse_exception
+gs_citation_url = lambda start_pos, cite : f"https://scholar.google.com/scholar?start={start_pos}&hl=en&num=10&as_sdt=80000005&sciodt=0,23&cites={cite}&scipsc=" + abuse_exception
 
 try:
     driver.get(gs_profile_url)
@@ -73,7 +73,7 @@ try:
         cite_ref = row["citation_ref"]
         logging.info(f"User article = '{row['title']}'; citations = {cite_count}")
         if cite_count > 0:
-            start_pos_list = list(range(0, cite_count, 20))
+            start_pos_list = list(range(0, cite_count, 10))
             for pos in start_pos_list:
                 citation_url = gs_citation_url(pos, cite_ref)
                 response = requests.get(citation_url)
