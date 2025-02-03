@@ -17,6 +17,9 @@ logging.basicConfig(filename="scrapper.log", level=logging.INFO, format='%(ascti
 logging.getLogger().addHandler(logging.StreamHandler(sys.stdout))
 logging.info("----- Started scrapping -----")
 
+fname = "google_scholar_profile.json"
+dump = False
+
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--headless")  # Run in headless mode (optional)
 chrome_options.add_argument("--disable-gpu")  # Disable GPU rendering (optional)
@@ -26,7 +29,9 @@ driver = webdriver.Chrome(options=chrome_options)
 gs_profile_url = "https://scholar.google.com/citations?user=7cOu9sAAAAAJ&hl=en"
 
 # Google Scholar citation base link
-gs_citation_url = lambda start_pos, cite : f"https://scholar.google.com/scholar?start={start_pos}&num=20&hl=en&as_sdt=5,31&sciodt=0,31&cites={cite}&scipsc="
+abuse_exception = "1&google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3D3c1af3a1f6ab162e:TM%3D1738604233:C%3Dr:IP%3D128.235.13.38-:S%3DKT-24sKKwdaS_tciwWnVCzo%3B+path%3D/%3B+domain%3Dgoogle.com%3B+expires%3DMon,+03-Feb-2025+22:37:13+GMT"
+abuse_exception = "1"
+gs_citation_url = lambda start_pos, cite : f"https://scholar.google.com/scholar?start={start_pos}&hl=en&num=20&as_sdt=80000005&sciodt=0,23&cites={cite}&scipsc=" + abuse_exception
 
 try:
     driver.get(gs_profile_url)
@@ -61,7 +66,6 @@ try:
         citations.append(count)
         citations_ref.append(ref_num)
 
-    driver.quit()
     df = pd.DataFrame({"title": titles, "citation_count": citations, "citation_ref": citations_ref})
 
     for i, row in df.iterrows():
@@ -90,17 +94,23 @@ try:
                     citations_info.append(article_map)
                 else:
                     logging.error(f"status_code = {response.status_code}; unable to fetch from '{citation_url}'")
-                    df['citations_info'] = citations_info
-                    fname = "google_scholar_profile_incomplete.json"
-                    df.to_json(fname, orient="records", lines=True)
+                    dump = True
+                    break
+            else:
+                continue
+            break
         else:
             citations_info.append(None)
         time.sleep(5)
 
+    driver.quit()
+
+    diff = len(df) - len(citations_info)
+    if diff > 0:
+        citations_info.extend([None] * diff)
     df['citations_info'] = citations_info
-    fname = "google_scholar_profile.json"
     df.to_json(fname, orient="records", lines=True)
-    logging.info(f"----- scrapping completed, results exported to '{fname}' -----")
+    logging.info(f"----- dumping current results into {fname} -----") if dump else logging.info(f"----- scrapping completed, results exported to '{fname}' -----")
 except Exception as e:
     logging.error(e)
     raise(e)

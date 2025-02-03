@@ -70,3 +70,43 @@
 2025-01-27 23:07:53,794 - INFO - ----- Started scrapping -----
 2025-01-27 23:08:02,926 - INFO - User article = 'Strategies to mitigate student resistance to active learning'; citations = 380
 2025-01-27 23:08:30,176 - ERROR - status_code = 429; unable to fetch from 'https://scholar.google.com/scholar?start=0&hl=en&as_sdt=5,31&sciodt=0,31&cites=14886632062565532949&scipsc='
+2025-02-03 13:43:43,529 - INFO - ----- Started scrapping -----
+2025-02-03 13:44:02,673 - INFO - User article = 'Strategies to mitigate student resistance to active learning'; citations = 381
+2025-02-03 13:44:33,136 - ERROR - status_code = 429; unable to fetch from 'https://scholar.google.com/scholar?start=0&num=20&hl=en&as_sdt=5,31&sciodt=0,31&cites=14886632062565532949&scipsc='
+2025-02-03 13:44:33,144 - ERROR - Length of values (0) does not match length of index (94)
+2025-02-03 13:52:32,929 - INFO - ----- Started scrapping -----
+2025-02-03 13:52:41,376 - INFO - User article = 'Strategies to mitigate student resistance to active learning'; citations = 381
+2025-02-03 13:53:56,403 - ERROR - HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /scholar?start=0&num=20&hl=en&as_sdt=5,31&sciodt=0,31&cites=14886632062565532949&scipsc= (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x1080b0cd0>, 'Connection to 103.48.68.76 timed out. (connect timeout=None)')))
+2025-02-03 13:55:08,064 - INFO - ----- Started scrapping -----
+2025-02-03 13:55:16,591 - INFO - User article = 'Strategies to mitigate student resistance to active learning'; citations = 381
+2025-02-03 13:55:17,167 - ERROR - ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-02-03 13:55:34,774 - INFO - ----- Started scrapping -----
+2025-02-03 13:55:42,749 - INFO - User article = 'Strategies to mitigate student resistance to active learning'; citations = 381
+2025-02-03 13:55:43,360 - ERROR - ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-02-03 13:56:06,224 - INFO - ----- Started scrapping -----
+2025-02-03 13:56:14,308 - INFO - User article = 'Strategies to mitigate student resistance to active learning'; citations = 381
+2025-02-03 13:56:17,192 - ERROR - HTTPSConnectionPool(host='scholar.google.com', port=443): Max retries exceeded with url: /scholar?start=0&num=20&hl=en&as_sdt=5,31&sciodt=0,31&cites=14886632062565532949&scipsc= (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1006)'))))
+2025-02-03 13:57:59,180 - INFO - ----- Started scrapping -----
+2025-02-03 13:58:07,766 - INFO - User article = 'Strategies to mitigate student resistance to active learning'; citations = 381
+2025-02-03 13:59:08,010 - ERROR - status_code = 429; unable to fetch from 'https://scholar.google.com/scholar?start=0&num=20&hl=en&as_sdt=5,31&sciodt=0,31&cites=14886632062565532949&scipsc=1&google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3D3c1af3a1f6ab162e:TM%3D1738604233:C%3Dr:IP%3D128.235.13.38-:S%3DKT-24sKKwdaS_tciwWnVCzo%3B+path%3D/%3B+domain%3Dgoogle.com%3B+expires%3DMon,+03-Feb-2025+20:37:13+GMT'
+2025-02-03 13:59:08,016 - ERROR - Length of values (0) does not match length of index (94)
+2025-02-03 14:01:49,828 - INFO - ----- Started scrapping -----
+2025-02-03 14:01:58,806 - INFO - User article = 'Strategies to mitigate student resistance to active learning'; citations = 381
+2025-02-03 14:02:44,702 - ERROR - status_code = 429; unable to fetch from 'https://scholar.google.com/scholar?start=0&num=20&hl=en&as_sdt=5,31&sciodt=0,31&cites=14886632062565532949&scipsc=1&google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3D3c1af3a1f6ab162e:TM%3D1738604233:C%3Dr:IP%3D128.235.13.38-:S%3DKT-24sKKwdaS_tciwWnVCzo%3B+path%3D/%3B+domain%3Dgoogle.com%3B+expires%3DMon,+03-Feb-2025+22:37:13+GMT'
+2025-02-03 14:02:44,711 - ERROR - Length of values (0) does not match length of index (94)
+2025-02-03 14:08:11,614 - INFO - ----- Started scrapping -----
+2025-02-03 14:08:19,994 - INFO - User article = 'Strategies to mitigate student resistance to active learning'; citations = 381
+2025-02-03 14:09:15,117 - ERROR - status_code = 429; unable to fetch from 'https://scholar.google.com/scholar?start=0&num=20&hl=en&as_sdt=5,31&sciodt=0,31&cites=14886632062565532949&scipsc=1&google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3D3c1af3a1f6ab162e:TM%3D1738604233:C%3Dr:IP%3D128.235.13.38-:S%3DKT-24sKKwdaS_tciwWnVCzo%3B+path%3D/%3B+domain%3Dgoogle.com%3B+expires%3DMon,+03-Feb-2025+22:37:13+GMT'
+2025-02-03 14:09:15,158 - INFO - *** dumping current results into google_scholar_profile.json ***
+2025-02-03 14:11:25,307 - INFO - ----- Started scrapping -----
+2025-02-03 14:11:34,700 - INFO - User article = 'Strategies to mitigate student resistance to active learning'; citations = 381
+2025-02-03 14:12:10,265 - ERROR - status_code = 429; unable to fetch from 'https://scholar.google.com/scholar?start=0&num=20&hl=en&as_sdt=5,31&sciodt=0,31&cites=14886632062565532949&scipsc=1&google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3D3c1af3a1f6ab162e:TM%3D1738604233:C%3Dr:IP%3D128.235.13.38-:S%3DKT-24sKKwdaS_tciwWnVCzo%3B+path%3D/%3B+domain%3Dgoogle.com%3B+expires%3DMon,+03-Feb-2025+22:37:13+GMT'
+2025-02-03 14:12:10,305 - INFO - ----- dumping current results into google_scholar_profile.json -----
+2025-02-03 14:13:21,890 - INFO - ----- Started scrapping -----
+2025-02-03 14:13:30,885 - INFO - User article = 'Strategies to mitigate student resistance to active learning'; citations = 381
+2025-02-03 14:14:12,611 - ERROR - status_code = 429; unable to fetch from 'https://scholar.google.com/scholar?start=0&num=20&hl=en&as_sdt=5,31&sciodt=0,31&cites=14886632062565532949&scipsc='
+2025-02-03 14:14:12,635 - INFO - ----- dumping current results into google_scholar_profile.json -----
+2025-02-03 14:17:37,483 - INFO - ----- Started scrapping -----
+2025-02-03 14:17:46,303 - INFO - User article = 'Strategies to mitigate student resistance to active learning'; citations = 381
+2025-02-03 14:18:01,519 - ERROR - status_code = 429; unable to fetch from 'https://scholar.google.com/scholar?start=0&hl=en&num=20&as_sdt=80000005&sciodt=0,23&cites=14886632062565532949&scipsc=1'
+2025-02-03 14:18:01,539 - INFO - ----- dumping current results into google_scholar_profile.json -----
