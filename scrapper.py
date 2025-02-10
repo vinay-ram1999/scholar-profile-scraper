@@ -19,6 +19,7 @@ logging.info("----- Started scrapping -----")
 
 fname = "google_scholar_profile.json"
 dump = False
+articles_per_page = 10
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--headless")  # Run in headless mode (optional)
@@ -29,9 +30,9 @@ driver = webdriver.Chrome(options=chrome_options)
 gs_profile_url = "https://scholar.google.com/citations?user=7cOu9sAAAAAJ&hl=en"
 
 # Google Scholar citation base link
-abuse_exception = "1&google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3D3c1af3a1f6ab162e:TM%3D1738604233:C%3Dr:IP%3D128.235.13.38-:S%3DKT-24sKKwdaS_tciwWnVCzo%3B+path%3D/%3B+domain%3Dgoogle.com%3B+expires%3DMon,+03-Feb-2025+22:37:13+GMT"
-abuse_exception = "1"
-gs_citation_url = lambda start_pos, cite : f"https://scholar.google.com/scholar?start={start_pos}&hl=en&num=10&as_sdt=80000005&sciodt=0,23&cites={cite}&scipsc=" + abuse_exception
+abuse_exception = "1&google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3D3c1af3a1f6ab162e:TM%3D1738604233:C%3Dr:IP%3D128.235.13.38-:S%3DKT-24sKKwdaS_tciwWnVCzo%3B+path%3D/%3B+domain%3Dgoogle.com%3B+expires%3DTue,+04-Feb-2025+23:37:13+GMT"
+abuse_exception = ""
+gs_citation_url = lambda start_pos, cite : f"https://scholar.google.com/scholar?start={start_pos}&hl=en&num={articles_per_page}&as_sdt=5,31&sciodt=0,31&cites={cite}&scipsc=" + abuse_exception
 
 try:
     driver.get(gs_profile_url)
@@ -47,6 +48,7 @@ try:
     citations = []
     citations_ref = []
     citations_info = []
+    citations_info_list = []
 
     article_col = driver.find_elements(By.CSS_SELECTOR, "#gsc_a_b .gsc_a_t")
     for row in article_col:
@@ -66,14 +68,16 @@ try:
         citations.append(count)
         citations_ref.append(ref_num)
 
+    driver.quit()
+
     df = pd.DataFrame({"title": titles, "citation_count": citations, "citation_ref": citations_ref})
 
-    for i, row in df.iterrows():
+    for _, row in df.iterrows():
         cite_count = row["citation_count"]
         cite_ref = row["citation_ref"]
         logging.info(f"User article = '{row['title']}'; citations = {cite_count}")
         if cite_count > 0:
-            start_pos_list = list(range(0, cite_count, 10))
+            start_pos_list = list(range(0, cite_count, articles_per_page))
             for pos in start_pos_list:
                 citation_url = gs_citation_url(pos, cite_ref)
                 response = requests.get(citation_url)
@@ -91,7 +95,8 @@ try:
                         else:
                             article_map = {"title":title.text, "url":None, "info":info.text}
                             logging.error(f"unable to fetch title of article from '{title.text}'")
-                    citations_info.append(article_map)
+                        citations_info.append(article_map)
+                    citations_info_list.append(citations_info)
                 else:
                     logging.error(f"status_code = {response.status_code}; unable to fetch from '{citation_url}'")
                     dump = True
@@ -100,15 +105,14 @@ try:
                 continue
             break
         else:
-            citations_info.append(None)
+            citations_info_list.append([])
+        assert len(citations_info_list[-1]) == cite_count
         time.sleep(5)
 
-    driver.quit()
-
-    diff = len(df) - len(citations_info)
+    diff = len(df) - len(citations_info_list)
     if diff > 0:
-        citations_info.extend([None] * diff)
-    df['citations_info'] = citations_info
+        citations_info_list.extend([None] * diff)
+    df['citations_info'] = citations_info_list
     df.to_json(fname, orient="records", lines=True)
     logging.info(f"----- dumping current results into {fname} -----") if dump else logging.info(f"----- scrapping completed, results exported to '{fname}' -----")
 except Exception as e:
