@@ -1,0 +1,206 @@
+2025-02-24 15:50:57,826 - INFO - ----- Attempting to connect to Zotero API -----
+2025-02-24 15:50:58,332 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&limit=1&format=json "HTTP/1.1 200 OK"
+2025-02-24 15:50:58,333 - INFO - 1401 items found in collection '2EWUI2PC'
+2025-02-24 15:50:58,411 - INFO - HTTP Request: GET https://api.zotero.org/itemTypes?locale=en-US&timeout=30 "HTTP/1.1 200 OK"
+2025-02-24 15:50:58,438 - INFO - HTTP Request: GET https://api.zotero.org/itemTypes?locale=en-US&timeout=30 "HTTP/1.1 200 OK"
+2025-02-24 15:50:58,658 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=artwork&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:50:58,658 - ERROR - 'list' object has no attribute 'entries'
+2025-02-24 15:53:14,494 - INFO - ----- Attempting to connect to Zotero API -----
+2025-02-24 15:53:14,927 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&limit=1&format=json "HTTP/1.1 200 OK"
+2025-02-24 15:53:14,928 - INFO - 1401 items found in collection '2EWUI2PC'
+2025-02-24 15:53:15,098 - INFO - HTTP Request: GET https://api.zotero.org/itemTypes?locale=en-US&timeout=30 "HTTP/1.1 200 OK"
+2025-02-24 15:53:15,126 - INFO - HTTP Request: GET https://api.zotero.org/itemTypes?locale=en-US&timeout=30 "HTTP/1.1 200 OK"
+2025-02-24 15:53:15,226 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=artwork&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:15,318 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=audioRecording&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:15,385 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=bill&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:15,507 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=blogPost&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:17,061 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=book&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:17,140 - INFO - 45 'book' items found
+2025-02-24 15:53:17,142 - INFO - bibtex info for 'book' type is exported to book.bib
+2025-02-24 15:53:18,035 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=bookSection&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:18,119 - INFO - 43 'bookSection' items found
+2025-02-24 15:53:18,121 - INFO - bibtex info for 'bookSection' type is exported to bookSection.bib
+2025-02-24 15:53:18,185 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=case&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:20,954 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=conferencePaper&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:24,744 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=conferencePaper&limit=100&start=100&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:53:27,410 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=conferencePaper&limit=100&start=200&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:53:27,533 - INFO - 282 'conferencePaper' items found
+2025-02-24 15:53:27,535 - INFO - bibtex info for 'conferencePaper' type is exported to conferencePaper.bib
+2025-02-24 15:53:27,611 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=dataset&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:27,676 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=dictionaryEntry&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:28,121 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=document&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:28,144 - INFO - 4 'document' items found
+2025-02-24 15:53:28,144 - INFO - bibtex info for 'document' type is exported to document.bib
+2025-02-24 15:53:28,223 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=email&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:28,303 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=encyclopediaArticle&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:28,384 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=film&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:28,457 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=forumPost&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:28,548 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=hearing&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:28,623 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=instantMessage&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:28,703 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=interview&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:30,229 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=journalArticle&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:33,753 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=100&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:53:35,446 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=200&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:53:38,178 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=300&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:53:41,024 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=400&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:53:44,197 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=500&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:53:47,271 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=600&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:53:48,806 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=700&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:53:50,141 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=800&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:53:50,259 - INFO - 886 'journalArticle' items found
+2025-02-24 15:53:50,267 - INFO - bibtex info for 'journalArticle' type is exported to journalArticle.bib
+2025-02-24 15:53:50,368 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=letter&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:50,451 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=magazineArticle&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:50,533 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=manuscript&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:50,603 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=map&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:50,676 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=newspaperArticle&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:50,751 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=note&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:50,829 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=patent&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:50,931 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=podcast&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:51,007 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=preprint&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:51,080 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=presentation&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:51,155 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=radioBroadcast&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:51,223 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=report&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:51,285 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=computerProgram&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:51,375 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=standard&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:51,440 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=statute&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:51,514 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=tvBroadcast&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:52,804 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=thesis&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:54,135 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=thesis&limit=100&start=100&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:53:54,184 - INFO - 141 'thesis' items found
+2025-02-24 15:53:54,185 - INFO - bibtex info for 'thesis' type is exported to thesis.bib
+2025-02-24 15:53:54,250 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=videoRecording&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:53:54,319 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=webpage&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:25,425 - INFO - ----- Attempting to connect to Zotero API -----
+2025-02-24 15:58:25,922 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&limit=1&format=json "HTTP/1.1 200 OK"
+2025-02-24 15:58:25,922 - INFO - 1401 items found in collection '2EWUI2PC'
+2025-02-24 15:58:26,011 - INFO - HTTP Request: GET https://api.zotero.org/itemTypes?locale=en-US&timeout=30 "HTTP/1.1 200 OK"
+2025-02-24 15:58:26,077 - INFO - HTTP Request: GET https://api.zotero.org/itemTypes?locale=en-US&timeout=30 "HTTP/1.1 200 OK"
+2025-02-24 15:58:26,173 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=artwork&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:26,249 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=audioRecording&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:26,337 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=bill&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:26,400 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=blogPost&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:27,856 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=book&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:27,944 - INFO - 45 'book' items found
+2025-02-24 15:58:27,945 - INFO - bibtex info for 'book' type is exported to api_exports/book.bib
+2025-02-24 15:58:29,387 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=bookSection&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:29,464 - INFO - 43 'bookSection' items found
+2025-02-24 15:58:29,465 - INFO - bibtex info for 'bookSection' type is exported to api_exports/bookSection.bib
+2025-02-24 15:58:29,638 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=case&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:32,418 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=conferencePaper&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:34,247 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=conferencePaper&limit=100&start=100&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:58:36,757 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=conferencePaper&limit=100&start=200&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:58:36,846 - INFO - 282 'conferencePaper' items found
+2025-02-24 15:58:36,848 - INFO - bibtex info for 'conferencePaper' type is exported to api_exports/conferencePaper.bib
+2025-02-24 15:58:37,167 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=dataset&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:37,235 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=dictionaryEntry&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:37,577 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=document&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:37,594 - INFO - 4 'document' items found
+2025-02-24 15:58:37,595 - INFO - bibtex info for 'document' type is exported to api_exports/document.bib
+2025-02-24 15:58:37,681 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=email&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:37,748 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=encyclopediaArticle&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:37,958 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=film&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:38,039 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=forumPost&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:38,107 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=hearing&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:38,180 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=instantMessage&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:38,255 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=interview&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:41,205 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=journalArticle&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:58:44,555 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=100&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:58:46,976 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=200&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:58:50,069 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=300&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:58:53,450 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=400&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:58:55,484 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=500&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:58:59,226 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=600&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:59:01,403 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=700&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:59:04,137 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=800&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:59:04,244 - INFO - 886 'journalArticle' items found
+2025-02-24 15:59:04,258 - INFO - bibtex info for 'journalArticle' type is exported to api_exports/journalArticle.bib
+2025-02-24 15:59:04,462 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=letter&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:59:04,543 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=magazineArticle&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:59:04,626 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=manuscript&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:59:04,708 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=map&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:59:04,779 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=newspaperArticle&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:59:04,839 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=note&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:59:04,918 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=patent&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:59:04,995 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=podcast&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:59:05,060 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=preprint&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:59:05,134 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=presentation&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:59:05,195 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=radioBroadcast&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:59:05,277 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=report&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:59:05,406 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=computerProgram&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:59:05,478 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=standard&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:59:05,560 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=statute&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:59:05,634 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=tvBroadcast&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:59:08,608 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=thesis&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:59:10,039 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=thesis&limit=100&start=100&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 15:59:10,101 - INFO - 141 'thesis' items found
+2025-02-24 15:59:10,102 - INFO - bibtex info for 'thesis' type is exported to api_exports/thesis.bib
+2025-02-24 15:59:10,173 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=videoRecording&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 15:59:10,247 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=webpage&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:33,123 - INFO - ----- Attempting to connect to Zotero API -----
+2025-02-24 16:04:33,728 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&limit=1&format=json "HTTP/1.1 200 OK"
+2025-02-24 16:04:33,729 - INFO - 1401 items found in collection '2EWUI2PC'
+2025-02-24 16:04:33,835 - INFO - HTTP Request: GET https://api.zotero.org/itemTypes?locale=en-US&timeout=30 "HTTP/1.1 200 OK"
+2025-02-24 16:04:33,865 - INFO - HTTP Request: GET https://api.zotero.org/itemTypes?locale=en-US&timeout=30 "HTTP/1.1 200 OK"
+2025-02-24 16:04:33,973 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=artwork&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:34,046 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=audioRecording&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:34,134 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=bill&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:34,226 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=blogPost&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:35,753 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=book&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:35,828 - INFO - 45 'book' items found
+2025-02-24 16:04:35,829 - INFO - bibtex info for 'book' type is exported to api_exports/book.bib
+2025-02-24 16:04:37,455 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=bookSection&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:37,528 - INFO - 43 'bookSection' items found
+2025-02-24 16:04:37,528 - INFO - bibtex info for 'bookSection' type is exported to api_exports/bookSection.bib
+2025-02-24 16:04:37,617 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=case&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:39,567 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=conferencePaper&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:42,742 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=conferencePaper&limit=100&start=100&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 16:04:45,198 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=conferencePaper&limit=100&start=200&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 16:04:45,308 - INFO - 282 'conferencePaper' items found
+2025-02-24 16:04:45,310 - INFO - bibtex info for 'conferencePaper' type is exported to api_exports/conferencePaper.bib
+2025-02-24 16:04:45,432 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=dataset&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:45,495 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=dictionaryEntry&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:45,914 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=document&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:45,930 - INFO - 4 'document' items found
+2025-02-24 16:04:45,930 - INFO - bibtex info for 'document' type is exported to api_exports/document.bib
+2025-02-24 16:04:45,997 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=email&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:46,075 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=encyclopediaArticle&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:46,243 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=film&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:46,355 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=forumPost&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:46,475 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=hearing&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:46,587 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=instantMessage&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:46,657 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=interview&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:49,548 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=journalArticle&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:04:52,880 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=100&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 16:04:56,142 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=200&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 16:04:58,104 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=300&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 16:05:01,440 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=400&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 16:05:04,878 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=500&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 16:05:08,196 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=600&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 16:05:09,810 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=700&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 16:05:12,028 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=journalArticle&limit=100&start=800&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 16:05:12,133 - INFO - 886 'journalArticle' items found
+2025-02-24 16:05:12,140 - INFO - bibtex info for 'journalArticle' type is exported to api_exports/journalArticle.bib
+2025-02-24 16:05:12,232 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=letter&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:12,330 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=magazineArticle&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:12,397 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=manuscript&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:12,531 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=map&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:12,667 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=newspaperArticle&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:12,743 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=note&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:12,823 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=patent&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:12,898 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=podcast&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:13,026 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=preprint&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:13,130 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=presentation&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:13,223 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=radioBroadcast&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:13,306 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=report&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:13,460 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=computerProgram&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:13,573 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=standard&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:13,650 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=statute&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:13,717 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=tvBroadcast&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:14,962 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=thesis&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:15,994 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?format=bibtex&itemType=thesis&limit=100&start=100&locale=en-US "HTTP/1.1 200 OK"
+2025-02-24 16:05:16,057 - INFO - 141 'thesis' items found
+2025-02-24 16:05:16,058 - INFO - bibtex info for 'thesis' type is exported to api_exports/thesis.bib
+2025-02-24 16:05:16,148 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=videoRecording&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:16,237 - INFO - HTTP Request: GET https://api.zotero.org/users/16442398/collections/2EWUI2PC/items?locale=en-US&format=bibtex&itemType=webpage&limit=100 "HTTP/1.1 200 OK"
+2025-02-24 16:05:16,237 - INFO - ----- export completed -----
