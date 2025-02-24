@@ -38,7 +38,7 @@ if __name__ == "__main__":
                 fname = f'{results_dir}/{itemType}.bib'
                 with open(fname, 'w') as bibtex_file:
                     dump(collection_items, bibtex_file)
-                logging.info(f"bibtex info for '{itemType}' type is exported to {fname}")
+                logging.info(f"bibtex info for '{itemType}' type is exported to '{fname}'")
         assert items == total_items, "All items are not exported!"
         logging.info("----- export completed -----")
     except Exception as e:
