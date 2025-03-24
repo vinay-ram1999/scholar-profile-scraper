@@ -12,6 +12,8 @@ if __name__ == "__main__":
     df = df[df["Volume"].isnull()]
     df = df[~df["Publication"].str.contains(r'\b(?:conference|journal|proceedings|ieee|springer)\b', case=False, na=True)]
     df = df[~df["Publisher"].str.contains(r'\b(?:conference|ieee|springer|association|igi|publications)\b', case=False, na=False)]
+    df = df[df["Pages"].isnull()]
+    df = df[df["Number"].isnull()]
     print(df)
 
     fpath = "regex_exports/filtered_articles.csv"
